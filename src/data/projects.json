@@ -34,8 +34,8 @@
   {
     "id": "unity-space-fighter",
     "title": "Unity Space Fighter Prototype",
-    "description": "A functional 2D Unity game prototype where the player controls a space fighter to destroy debris and organise coloured particles into scoring patterns. The prototype includes movement, collisions, scoring, pause and resume, HUD feedback, and win/loss conditions.",
-    "image": "projects/project_azoom.png",
+    "description": "A functional 2D Unity game prototype where the player controls a space fighter to destroy grey debris and organise red, green, and blue particles into scoring patterns. The prototype includes random particle spawning, movement, collision handling, grid storage, scoring, pause/resume, HUD feedback, and win/loss states.",
+    "image": "projects/unity-space-fighter.svg",
     "live": "",
     "github": "",
     "technologies": [
@@ -45,7 +45,30 @@
       "Collision Detection",
       "UI/HUD"
     ],
-    "category": "Game Development"
+    "category": "Game Development",
+    "demoStatus": "A Mac standalone build exists locally. A browser-playable demo would require a Unity WebGL build.",
+    "howToPlay": [
+      "Click the Start button to begin the game and start the timer.",
+      "Use the arrow keys to move the space fighter around the play area.",
+      "Use the space fighter to push red, green, and blue ionised particles sideways into the storage grid.",
+      "Destroy grey debris by hitting it from underneath with the space fighter.",
+      "Press Spacebar to pause or resume the game."
+    ],
+    "rules": [
+      "Particles spawn from the top-centre of the flow area every 2 seconds and fall downward.",
+      "The spawner randomly chooses red, green, blue, or grey particles, while preventing the same particle type from spawning twice in a row.",
+      "Ionised particles are stored in a 5 by 5 grid and snap into the nearest available column when they settle.",
+      "Three matching coloured particles in a vertical line are removed from the grid.",
+      "A horizontal red-green-blue sequence is removed from the grid.",
+      "When a group is removed, particles above it drop down into the available spaces."
+    ],
+    "scoring": [
+      "Destroying one debris particle gives 5 points.",
+      "Creating a vertical group of three matching red, green, or blue particles gives 10 points.",
+      "Creating a horizontal RGB group gives 15 points.",
+      "The player wins when the score reaches 100.",
+      "The player loses if the storage grid fills with ungrouped particles or if 5 debris particles enter storage."
+    ]
   },
   {
     "id": "portfolio-website",

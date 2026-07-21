@@ -25,6 +25,32 @@
         </div>
       </div>
     </div>
+
+    <div v-if="project.demoStatus" class="project-info mb-4">
+      <h3 class="font-weight-bold">Demo</h3>
+      <p>{{ project.demoStatus }}</p>
+    </div>
+
+    <div v-if="project.howToPlay" class="project-info mb-4">
+      <h3 class="font-weight-bold">How to Play</h3>
+      <ul>
+        <li v-for="(step, index) in project.howToPlay" :key="`play-${index}`">{{ step }}</li>
+      </ul>
+    </div>
+
+    <div v-if="project.rules" class="project-info mb-4">
+      <h3 class="font-weight-bold">Rules</h3>
+      <ul>
+        <li v-for="(rule, index) in project.rules" :key="`rule-${index}`">{{ rule }}</li>
+      </ul>
+    </div>
+
+    <div v-if="project.scoring" class="project-info mb-4">
+      <h3 class="font-weight-bold">Scoring and Outcomes</h3>
+      <ul>
+        <li v-for="(score, index) in project.scoring" :key="`score-${index}`">{{ score }}</li>
+      </ul>
+    </div>
   </div>
   <div class="project-detail min-vh-100 container d-flex justify-content-center align-items-center" v-else>
     <h2>Project not found</h2>
@@ -59,5 +85,13 @@ export default {
 .dark-mode .btn-dark {
   background-color: #333;
   border-color: #333;
+}
+.project-info {
+  border-top: 1px solid #e5e5e5;
+  padding-top: 1.5rem;
+}
+.project-info ul {
+  line-height: 1.8;
+  font-size: 1.1rem;
 }
 </style>
