@@ -2,8 +2,8 @@
   <section id="summary" class="section section_1 py-5 w-100 row">
     <div data-aos="fade-right" data-aos-duration="1000" class="section__text text-center px-3 py-5 col-lg-6 col-sm-12 d-flex justify-content-center align-items-center flex-column">
       <p>Hey! I'm</p>
-      <h1>Arjad Gohar</h1>
-      <vue-typer text='FullStack Developer'></vue-typer>
+      <h1>Sophie O'Rourke</h1>
+      <vue-typer text='Psychology & Computing'></vue-typer>
       <p class="intro-para mt-2"> 
         I am a skilled software developer delivering high-quality solutions across diverse projects. My expertise spans front-end and back-end development, including Vue.js, React.js, Ruby on Rails and Python.
       </p>
