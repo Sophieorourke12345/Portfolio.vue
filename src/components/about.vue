@@ -5,49 +5,49 @@
     <div class="position-relative">
       <div class="verticle-line position-absolute"></div>
       <div data-aos="fade-left" data-aos-duration="1000" class="mt-4 ml-5">
-        <h2 class='mb-4'> <i class="fa-solid fa-briefcase"></i> Experience - {{calculatedExperience}}+ year(s)</h2>
+        <h2 class='mb-4'> <i class="fa-solid fa-briefcase"></i> Experience</h2>
         <div class='w-100 text-green'>
-          <h4 class='d-inline'> Software Engineer - 2022-present</h4>
+          <h4 class='d-inline'> Fitness Coach - March 2024-present</h4>
         </div>
-        <h6> <a class='text-blue' href= 'https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://codingcops.com/&ved=2ahUKEwj45KjR6OGKAxWXF2IAHS9oO-MQFnoECDcQAQ&usg=AOvVaw0qDV81i0KjT34kPmA7ojBM'> Coding Cops, Lahore. </a></h6>
+        <h6>Bike Row Ski, Douglas, Cork</h6>
         <ul>
-          <li> Developed key features and resolved bugs for web applications using React, Vue.js, and Ruby on Rails. </li>
-          <li> Continuously enhancing skills by pursuing certifications in AWS, DevOps & python. </li>
+          <li> Coach group fitness classes and adapt communication to suit individual client needs. </li>
+          <li> Support client motivation, confidence, and progression through clear feedback. </li>
+          <li> Participate in strategy calls and optional professional development events. </li>
         </ul>
         <div class="skills mb-5">
-          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Vue JS</span>
-          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">React JS</span>
-          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Ruby on Rails</span>
-          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Python </span>
-          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">AWS services</span>
-        </div>
-
-        <h4 class='text-green'> Front End Developer - 2021-2022 </h4>
-        <h6> <a class='text-blue'href= 'https://theunitedsoftware.com/'>United Insurance, Lahore. </a> </h6>
-        <ul>
-          <li> Created visually appealing, user-friendly interfaces, using CSS grid and flexbox layouts for responsive design. </li>
-          <li> Utilized react components & npm modules to develop modular, reusable UI elements for efficient front-end development. </li>
-        </ul>
-        <div class="skills mb-5">
-          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">HTML</span>
-          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">CSS</span>
-          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">SCSS</span>
-          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">JavaScript</span>
-          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Bootstrap</span>
-          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Tailwind CSS</span>
-          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">React JS</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Coaching</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Communication</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Leadership</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Client Support</span>
         </div>
 
-        <h4 class='text-green'> Freelancer - 2019-2021 </h4>
-        <h6> <a class='text-blue'href= 'https://www.upwork.com/freelancers/~01a73a1abd70f9f27f'>Upwork </a> </h6>
+        <h4 class='text-green'> Personal Trainer - March 2025-October 2025 </h4>
+        <h6>OC Strength & Fitness, Cork</h6>
         <ul>
-          <li> Developed key features and resolved bugs for web applications using React, Vue.js, and Ruby on Rails. </li>
-          <li>Continuously enhancing skills by pursuing certifications in AWS, DevOps & Python. </li>
+          <li> Created tailored fitness programmes based on individual client goals, levels, and needs. </li>
+          <li> Streamlined lead automation through Zapier and maintained client data in Less Annoying CRM. </li>
+          <li> Supported pre- and post-partum clients with adapted training sessions. </li>
         </ul>
         <div class="skills mb-5">
-          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Front End Optimization</span>
-          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">AWS Deployment</span>
-          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Backend Optimization</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Zapier</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">CRM</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Automation</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Programme Design</span>
+        </div>
+
+        <h4 class='text-green'> Dental Nurse - May 2021-May 2023 </h4>
+        <h6>The Lodge Dental Practice, Cork</h6>
+        <ul>
+          <li> Prepared instruments and maintained sterile clinical environments for patient procedures. </li>
+          <li> Supported dentists during complex procedures by anticipating equipment and material needs. </li>
+          <li> Maintained accurate clinical documentation and followed infection control standards. </li>
+        </ul>
+        <div class="skills mb-5">
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Patient Care</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Documentation</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Risk Awareness</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Teamwork</span>
         </div>
       </div>
     </div>
@@ -59,13 +59,39 @@
       <div data-aos="fade-left" data-aos-duration="1000" class="mt-4 ml-5">
         <h2 class='mb-4'><i class="fa-solid fa-user-graduate"></i> Education </h2>
         
-        <h4 class='text-green'> Bachelor in Information Technology (BIT) - 2022-present </h4>
-        <h6><a class='text-blue' href='https://pucit.edu.pk/'> Punjab University (PUCIT) Lahore, Pakistan. </a></h6>
-        <p> Obtained comprehensive knowledge in computer science and information technology, enhancing skills in software development, and passed it with 3.06 CGPA. </p>
+        <h4 class='text-green'> BSc Psychology and Computing - 2024-present </h4>
+        <h6>University College Cork, Cork</h6>
+        <p> Second-year student developing skills in programming, web development, UX, human-centred computing, research methods, statistics, and data analysis. First-year overall result: 1:1. Second-year overall result: 2:1. </p>
 
-        <h4 class='text-green'> Mern Stack Certification - 2022</h4>
-        <h6><a class='text-blue' href='https://nextbridge.com/'>Next Bridge, Lahore, Pakistan.</a>  </h6>
-        <p>Acquired advanced mern-stack, leveraging industry best practices to create dynamic and interactive web applications.</p>
+        <h4 class='text-green'> General Nursing Studies - 2022-2024</h4>
+        <h6>University College Cork, Cork</h6>
+        <p> Completed two years of undergraduate study, building experience in clinical communication, documentation, patient care, and working under pressure. </p>
+
+        <h4 class='text-green'> Health Sciences - 2021</h4>
+        <h6>Drexel University, Philadelphia, USA</h6>
+        <p> Awarded a full sports scholarship for squash and achieved a Gold Standard Certificate for academic results in the top 3% across studied modules. </p>
+      </div>
+    </div>
+
+    <div class="position-relative mt-5">
+      <div class="verticle-line position-absolute"></div>
+
+      <div data-aos="fade-left" data-aos-duration="1000" class="mt-4 ml-5">
+        <h2 class='mb-4'><i class="fa-solid fa-code"></i> Technical Skills </h2>
+        <p> Programming and web development: Python, HTML, CSS, JavaScript, SQL, C#, Vue.js. </p>
+        <p> UX and research: user-centred design, accessibility awareness, experimental design, statistical methods, and documentation. </p>
+        <div class="skills mb-5">
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Python</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Vue.js</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">JavaScript</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">HTML</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">CSS</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">SQL</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">C#</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Unity</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">GitHub</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">VS Code</span>
+        </div>
       </div>
     </div>
   </section>
@@ -79,19 +105,8 @@ export default {
   },
   data() {
     return {
-      activeSection: 'experience',
-      startDate: "2019-01-01"
+      activeSection: 'experience'
     };
-  },
-  computed: {
-    calculatedExperience() {
-      const startDate = new Date(this.startDate);
-      const currentDate = new Date();
-      const yearsDifference = currentDate.getFullYear() - startDate.getFullYear();
-      const isFullYear = currentDate.getMonth() >= startDate.getMonth() && currentDate.getDate() >= startDate.getDate();
-
-      return isFullYear ? yearsDifference : yearsDifference - 1;
-    },
   },
   methods: {
     setActiveSection(section) {
