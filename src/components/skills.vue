@@ -13,6 +13,7 @@
         >
           <h3>
             <img 
+              v-if="skill.imageSrc"
               :src="`${publicPath}icons/${skill.imageSrc}.png`" 
               class="skill-image mr-3"
             />
@@ -43,10 +44,12 @@ export default {
         { name: 'Python', imageSrc: 'python' },
         { name: 'Git', imageSrc: 'git' },
         { name: 'GitHub', imageSrc: 'github' },
-        { name: 'Bootstrap', imageSrc: 'bootstrap' },
         { name: 'UX Design', imageSrc: 'css' },
         { name: 'Unity', imageSrc: 'js' },
         { name: 'SQL', imageSrc: 'python' },
+        { name: 'Excel' },
+        { name: 'Zapier' },
+        { name: 'SPSS' },
         { name: 'Research Methods', imageSrc: 'html' },
         { name: 'Data Analysis', imageSrc: 'vite' },
       ],

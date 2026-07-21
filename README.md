@@ -19,7 +19,6 @@ https://sophieorourke12345.github.io/Portfolio.vue/
 - JavaScript
 - HTML
 - CSS
-- Bootstrap
 - GitHub Pages
 
 ## Local Development
