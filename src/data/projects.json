@@ -20,7 +20,7 @@
     "title": "Simple Centipede",
     "description": "A playable Centipede-style game built with Python, Pygame, and CircuitPython. The game combines desktop gameplay with Circuit Playground Express hardware input, allowing users to control movement with accelerometer tilt and receive NeoPixel feedback.",
     "image": "projects/project_freshmenu.png",
-    "live": "",
+    "live": "unity-space-fighter/",
     "github": "",
     "technologies": [
       "Python",
@@ -46,7 +46,7 @@
       "UI/HUD"
     ],
     "category": "Game Development",
-    "demoStatus": "A Mac standalone build exists locally. A browser-playable demo would require a Unity WebGL build.",
+    "demoStatus": "A browser-playable Unity WebGL demo is available from the Live Demo button. Click inside the game window before using the keyboard controls.",
     "howToPlay": [
       "Click the Start button to begin the game and start the timer.",
       "Use the arrow keys to move the space fighter around the play area.",
