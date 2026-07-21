@@ -2,7 +2,7 @@
   <div class="project-detail min-vh-100 container" v-if="project">
     <div class="row align-items-center mb-5">
       <div class="col-md-6 mb-4 mb-md-0" data-aos="fade-right">
-        <img :src="project.image" :alt="project.title" class="img-fluid rounded shadow-lg w-100" />
+        <img :src="project.image" :alt="project.title" class="project-detail-image rounded shadow-lg w-100" />
       </div>
       <div class="col-md-6" data-aos="fade-left">
         <h1 class="display-4 font-weight-bold mb-3">{{ project.title }}</h1>
@@ -78,6 +78,12 @@ export default {
 .project-detail {
   padding-top: 120px;
   padding-bottom: 60px;
+}
+.project-detail-image {
+  max-height: 520px;
+  object-fit: contain;
+  background: #111;
+  padding: 12px;
 }
 .dark-mode .project-detail {
   color: white;

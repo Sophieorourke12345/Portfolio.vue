@@ -19,7 +19,7 @@
     "id": "simple-centipede",
     "title": "Simple Centipede",
     "description": "A playable Centipede-style game built with Python, Pygame, and CircuitPython. The game combines desktop gameplay with Circuit Playground Express hardware input, allowing users to control movement with accelerometer tilt and receive NeoPixel feedback.",
-    "image": "projects/project_freshmenu.png",
+    "image": "projects/simple-centipede.png",
     "live": "",
     "github": "https://github.com/Sophieorourke12345/Simple-Centipede",
     "technologies": [
@@ -35,7 +35,7 @@
     "id": "unity-space-fighter",
     "title": "Unity Space Fighter Prototype",
     "description": "A functional 2D Unity game prototype where the player controls a space fighter to destroy grey debris and organise red, green, and blue particles into scoring patterns. The prototype includes random particle spawning, movement, collision handling, grid storage, scoring, pause/resume, HUD feedback, and win/loss states.",
-    "image": "projects/unity-space-fighter.svg",
+    "image": "projects/unity-space-fighter.png",
     "live": "unity-space-fighter/",
     "github": "https://github.com/Sophieorourke12345/Unity-Space-Fighter",
     "technologies": [

@@ -4,7 +4,7 @@
 
     <section class="project-container container-fluid">
       <div v-for="(project, index) in displayedProjects" :key="index" class="card px-0" @click="goToProject(project.id)" style="cursor: pointer;">
-        <img :src="project.image" class="card-img-top" :alt="project.title"/>
+        <img :src="project.image" class="card-img-top project-image" :alt="project.title"/>
 
         <div class="card-body shadow">
             <h5 class="card-title">{{ project.title }}</h5>
@@ -86,6 +86,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
   .card {
     width:30rem;
     transition: transform 0.3s ease-in-out;
@@ -97,6 +98,25 @@
     }
     a:hover {
       text-decoration: underline;
+    }
+  }
+
+  .project-image {
+    height: 260px;
+    object-fit: contain;
+    background: #111;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .project-container {
+    .card {
+      width: 100%;
+    }
+
+    .project-image {
+      height: 220px;
     }
   }
 }
