@@ -14,7 +14,7 @@
           <h3>
             <img 
               v-if="skill.imageSrc"
-              :src="`${publicPath}icons/${skill.imageSrc}.png`" 
+              :src="`${publicPath}icons/${skill.imageSrc}`" 
               class="skill-image mr-3"
             />
 
@@ -37,25 +37,25 @@ export default {
     return {
       publicPath: process.env.BASE_URL,
       skills: [
-        { name: 'Python', imageSrc: 'python' },
-        { name: 'JavaScript', imageSrc: 'js' },
-        { name: 'HTML', imageSrc: 'html' },
-        { name: 'CSS', imageSrc: 'css' },
+        { name: 'Python', imageSrc: 'python.png' },
+        { name: 'JavaScript', imageSrc: 'js.png' },
+        { name: 'HTML', imageSrc: 'html.png' },
+        { name: 'CSS', imageSrc: 'css.png' },
         { name: 'SQL' },
-        { name: 'C#' },
+        { name: 'C#', imageSrc: 'csharp.svg' },
         { name: 'Unity' },
-        { name: 'Git', imageSrc: 'git' },
-        { name: 'GitHub', imageSrc: 'github' },
-        { name: 'Vue.js', imageSrc: 'vue' },
-        { name: 'Zapier' },
+        { name: 'Git', imageSrc: 'git.png' },
+        { name: 'GitHub', imageSrc: 'github.png' },
+        { name: 'Vue.js', imageSrc: 'vue.png' },
+        { name: 'Zapier', imageSrc: 'zapier.svg' },
         { name: 'Less Annoying CRM' },
-        { name: 'SPSS Statistics' },
+        { name: 'SPSS Statistics', imageSrc: 'spss.svg' },
         { name: 'Research Methods' },
         { name: 'Data Analysis' },
         { name: 'Miro' },
         { name: 'Figma' },
         { name: 'UX Design' },
-        { name: 'Excel' },
+        { name: 'Excel', imageSrc: 'excel.svg' },
       ],
     };
   },
