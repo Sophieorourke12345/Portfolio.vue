@@ -74,7 +74,7 @@
     "id": "portfolio-website",
     "title": "Personal Portfolio Website",
     "description": "A Vue.js portfolio website adapted and customised to present my education, technical skills, project work, achievements, and contact details. The site is deployed through GitHub Pages and updated through Git commits.",
-    "image": "projects/project_version_tracker.png",
+    "image": "projects/personal-portfolio.png",
     "live": "https://sophieorourke12345.github.io/Portfolio.vue/",
     "github": "https://github.com/Sophieorourke12345/Portfolio.vue",
     "technologies": [
