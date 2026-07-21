@@ -15,10 +15,10 @@
               </span>
             </div>
             <div class="d-flex flex-wrap mt-2">
-                <a :href="project.github" target="_blank" class="btn me-2 mb-2" @click.stop>
+                <a v-if="project.github" :href="project.github" target="_blank" class="btn me-2 mb-2" @click.stop>
                   <i class="fa-brands fa-github mr-2"></i>GitHub
                 </a>
-                <a :href="project.live" target="_blank" class="btn me-2 mb-2" @click.stop>
+                <a v-if="project.live" :href="project.live" target="_blank" class="btn me-2 mb-2" @click.stop>
                   <i class="fa-solid fa-arrow-up-right-from-square"></i>  Live Demo
                 </a>
             </div>

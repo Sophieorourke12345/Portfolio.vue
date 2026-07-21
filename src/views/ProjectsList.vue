@@ -27,7 +27,7 @@
 import Project from "../components/project.vue";
 import projectsData from "../data/projects.json";
 
-const CATEGORIES = ["All", "Front End", "Backend", "Full Stack", "Extensions", "Gems"];
+const CATEGORIES = ["All", "Frontend", "Full Stack", "Game Development"];
 
 export default {
   name: "ProjectsList",

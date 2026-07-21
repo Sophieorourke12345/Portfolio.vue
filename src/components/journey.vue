@@ -1,7 +1,7 @@
 
 <template>
   <section>
-    <Heading :title="'My Journey'" :subtitle="'A look at my work, achievements, and contributions'" />
+    <Heading :title="'My Journey'" :subtitle="'A look at my studies, projects, sport, and experience'" />
     
     <div class="container gallery-div">
       <div id="gallery">
@@ -10,21 +10,21 @@
         </div>
         <div>
           <img data-aos="fade-left" data-aos-duration="1000" zoomtastic src="../assets/journey/desk.jpg" alt="profile pic" />
-          <a href="#lightbox-2">My Work Desk</a>
+          <a href="#lightbox-2">Projects</a>
         </div>
         <div>
           <img data-aos="fade-left" data-aos-duration="1000" zoomtastic src="../assets/journey/me2.jpg" alt="profile pic" />
         </div>
         <div>
           <img data-aos="fade-left" data-aos-duration="1000" zoomtastic src="../assets/journey/me5.jpeg" alt="profile pic" />
-          <a href="#lightbox-4">Tour</a>
+          <a href="#lightbox-4">Experience</a>
         </div>
         <div>
           <img data-aos="fade-left" data-aos-duration="1000" zoomtastic src="../assets/journey/me1.jpg" alt="profile pic" />
         </div>
         <div>
           <img data-aos="fade-left" data-aos-duration="1000" zoomtastic src="../assets/journey/laptop.jpeg" alt="profile pic" />
-          <a href="#lightbox-4">mac</a>
+          <a href="#lightbox-4">Portfolio</a>
         </div>
 
       </div>
@@ -216,5 +216,4 @@
   content: "X";
 }
 </style>
-
 

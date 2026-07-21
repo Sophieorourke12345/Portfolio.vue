@@ -16,10 +16,10 @@
         </div>
         
         <div class="d-flex mt-4">
-          <a :href="project.github" target="_blank" class="btn btn-dark text-white me-3 px-4 py-2">
+          <a v-if="project.github" :href="project.github" target="_blank" class="btn btn-dark text-white me-3 px-4 py-2">
             <i class="fa-brands fa-github mr-2"></i> GitHub Repository
           </a>
-          <a :href="project.live" target="_blank" class="btn btn-primary px-4 py-2 ml-3">
+          <a v-if="project.live" :href="project.live" target="_blank" class="btn btn-primary px-4 py-2 ml-3">
             <i class="fa-solid fa-arrow-up-right-from-square mr-2"></i> Live Demo
           </a>
         </div>

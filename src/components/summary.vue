@@ -5,25 +5,25 @@
       <h1>Sophie O'Rourke</h1>
       <vue-typer text='Psychology & Computing Student'></vue-typer>
       <p class="intro-para mt-2"> 
-        I am a skilled software developer delivering high-quality solutions across diverse projects. My expertise spans front-end and back-end development, including Vue.js, React.js, Ruby on Rails and Python.
+        I am a Psychology and Computing student at University College Cork with practical experience across programming, web development, UX, research methods, healthcare, coaching, and sport.
       </p>
       <p class='intro-para'>
-        I specialize in creating user-friendly interfaces and scalable systems to meet client needs. My passion lies in solving complex challenges with and effective solutions.
+        I enjoy building user-focused digital projects and combining technical problem-solving with communication, resilience, and human-centred thinking.
       </p>
       <div class="btn-container mt-3">
         <button
           class="btn btn-color-2 btn-black"
-          onclick="location.href='https://drive.google.com/file/d/1I24YNY6zHmmT7MtJzKVGk1kLrqlBnT3a/view?usp=sharing'"
+          onclick="location.href='https://github.com/Sophieorourke12345'"
         >
-          View Resume
+          View GitHub
         </button>
         <button class="btn btn-color-1" @click="scrollToSection('contact')">
           Contact Info
         </button>
       </div>
       <div id="socials-container">
-        <i class="fa-brands fa-linkedin icon" @click="redirectTo('https://www.linkedin.com/in/arjad/')"></i>
-        <i class="icon fa-brands fa-github" @click="redirectTo('https://github.com/arjad')"></i>
+        <i class="fa-solid fa-envelope icon" @click="redirectTo('mailto:121115679@umail.ucc.ie')"></i>
+        <i class="icon fa-brands fa-github" @click="redirectTo('https://github.com/Sophieorourke12345')"></i>
       </div>
     </div>
     <div class="pic_container col-lg-6 col-sm-12 d-flex justify-content-center alig-items-center">
@@ -38,7 +38,6 @@
 
 <script>
 import { VueTyper } from 'vue-typer';
-import html2pdf from 'html2pdf.js';
 
 export default {
   components: {
