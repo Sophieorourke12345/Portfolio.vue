@@ -50,7 +50,6 @@ export default {
         { name: 'Zapier', imageSrc: 'zapier.svg' },
         { name: 'Less Annoying CRM', imageSrc: 'crm.svg' },
         { name: 'SPSS Statistics', imageSrc: 'spss.svg' },
-        { name: 'Research Methods', imageSrc: 'research.svg' },
         { name: 'Data Analysis', imageSrc: 'data-analysis.svg' },
         { name: 'Miro', imageSrc: 'miro.svg' },
         { name: 'Figma', imageSrc: 'figma.svg' },
