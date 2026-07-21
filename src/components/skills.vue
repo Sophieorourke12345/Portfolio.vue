@@ -13,7 +13,7 @@
         >
           <h3>
             <img 
-              :src="`/icons/${skill.imageSrc}.png`" 
+              :src="`${publicPath}icons/${skill.imageSrc}.png`" 
               class="skill-image mr-3"
             />
 
@@ -34,6 +34,7 @@ export default {
   },
   data() {
     return {
+      publicPath: process.env.BASE_URL,
       skills: [
         { name: 'HTML', imageSrc: 'html' },
         { name: 'CSS', imageSrc: 'css' },
