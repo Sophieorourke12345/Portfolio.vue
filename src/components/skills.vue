@@ -49,7 +49,7 @@ export default {
         { name: 'Vue.js', imageSrc: 'vue.png' },
         { name: 'Zapier', imageSrc: 'zapier.svg' },
         { name: 'Less Annoying CRM', imageSrc: 'crm.svg' },
-        { name: 'SPSS Stats', imageSrc: 'spss.svg' },
+        { name: 'SPSS Statistics', imageSrc: 'spss.svg' },
         { name: 'Data Analysis', imageSrc: 'data-analysis.svg' },
         { name: 'Miro', imageSrc: 'miro.svg' },
         { name: 'Figma', imageSrc: 'figma.svg' },
