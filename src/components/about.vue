@@ -7,6 +7,24 @@
       <div data-aos="fade-left" data-aos-duration="1000" class="mt-4 ml-5">
         <h2 class='mb-4'> <i class="fa-solid fa-briefcase"></i> Experience</h2>
         <div class='w-100 text-green'>
+          <h4 class='d-inline'> Sales Representative - April 2026-present</h4>
+        </div>
+        <h6>PhoneWatch, Cork</h6>
+        <ul>
+          <li> Work as a door-to-door sales representative, building customer trust through direct communication, product knowledge, and needs-led conversations. </li>
+          <li> Selected in my second month as one of three national representatives to trial a new sales system for new-build properties. </li>
+          <li> Awarded National Sales Representative of the Month in June 2026 for strong performance and sales results. </li>
+          <li> Invited by the National Manager to attend a development course focused on progression opportunities in sales, leadership, and management. </li>
+        </ul>
+        <div class="skills mb-5">
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Sales</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Customer Communication</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Relationship Building</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Resilience</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Leadership Potential</span>
+        </div>
+
+        <div class='w-100 text-green'>
           <h4 class='d-inline'> Fitness Coach - March 2024-present</h4>
         </div>
         <h6>Bike Row Ski, Douglas, Cork</h6>
