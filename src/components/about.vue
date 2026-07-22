@@ -21,7 +21,7 @@
           <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Customer Communication</span>
           <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Relationship Building</span>
           <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Resilience</span>
-          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Leadership Potential</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Collaborative Teamwork</span>
         </div>
 
         <div class='w-100 text-green'>
@@ -31,12 +31,12 @@
         <ul>
           <li> Coach group fitness classes and adapt communication to suit individual client needs. </li>
           <li> Support client motivation, confidence, and progression through clear feedback. </li>
-          <li> Participate in strategy calls and optional professional development events. </li>
+          <li> Collaborate with the coaching team in strategy calls and professional development events. </li>
         </ul>
         <div class="skills mb-5">
           <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Coaching</span>
           <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Communication</span>
-          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Leadership</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Team Motivation</span>
           <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Client Support</span>
         </div>
 

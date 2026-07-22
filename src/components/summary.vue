@@ -8,7 +8,7 @@
         I am a Psychology and Computing student at University College Cork with practical experience across programming, web development, UX, research methods, healthcare, coaching, and sport.
       </p>
       <p class='intro-para'>
-        I enjoy building user-focused digital projects and combining technical problem-solving with communication, resilience, and human-centred thinking.
+        I love working as part of a team to build user-focused digital projects, combining technical problem-solving with collaboration, communication, and human-centred thinking.
       </p>
       <div class="btn-container mt-3">
         <button
