@@ -4,7 +4,7 @@
     "title": "Public Event Page Platform",
     "description": "A personal full-stack project inspired by Eventbrite, focused on creating a lower-cost event platform for hosts and attendees. The platform is being designed to support account creation, event uploads, event verification, browsing, and ticket purchasing.",
     "image": "projects/eventspace-organiser-hub.png",
-    "live": "",
+    "live": "https://eventspace-ireland.onrender.com/",
     "github": "",
     "technologies": [
       "Vue.js",
