@@ -6,9 +6,7 @@
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
               <h6 class="text-uppercase mb-4 font-weight-bold">Contact Details</h6>
               <p>
-                <a href="https://www.linkedin.com/" target="_blank">
-                  <i class="fab fa-linkedin"></i> LinkedIn
-                </a>
+                <i class="fab fa-linkedin"></i> LinkedIn profile coming soon
               </p>
               <p>
                 <a href="https://github.com/Sophieorourke12345" target="_blank">
@@ -18,6 +16,11 @@
               <p>
                 <a href="mailto:121115679@umail.ucc.ie">
                   <i class="fas fa-envelope"></i> 121115679@umail.ucc.ie
+                </a>
+              </p>
+              <p>
+                <a href="tel:+353851693867">
+                  <i class="fas fa-phone"></i> 085 169 3867
                 </a>
               </p>
               <p>
@@ -38,13 +41,11 @@
               <p class="scroll-to" @click="scrollToSection('about')">About</p>
               <p class="scroll-to" @click="scrollToSection('practicle_skills')">Skills</p>
               <p class="scroll-to" @click="scrollToSection('projects')">Projects</p>
+              <p><a href="https://sophieorourke12345.github.io/Portfolio.vue/">Portfolio website</a></p>
             </div>
 
             <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
               <h6 class="text-uppercase mb-4 font-weight-bold">Follow Me</h6>
-              <a class="btn btn-floating m-1" href="https://www.linkedin.com/" role="button">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
               <a class="btn btn-floating m-1" href="https://github.com/Sophieorourke12345" role="button">
                 <i class="fab fa-github"></i>
               </a>
