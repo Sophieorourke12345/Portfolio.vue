@@ -58,9 +58,10 @@
               <h4>{{ credential.title }}</h4>
               <p class="issuer">{{ credential.issuer }}</p>
               <p>{{ credential.description }}</p>
-              <a :href="credential.document" target="_blank" rel="noopener noreferrer">
+              <a v-if="credential.document" :href="credential.document" target="_blank" rel="noopener noreferrer">
                 View credential <i class="fa-solid fa-arrow-up-right-from-square"></i>
               </a>
+              <span v-else class="verified-label"><i class="fa-solid fa-circle-check"></i> Verified achievement</span>
             </div>
           </article>
         </VueSlickCarousel>
@@ -77,10 +78,10 @@
 
         <div class="reference-grid">
           <article v-for="reference in references" :key="reference.title" class="reference-card">
-            <i :class="reference.icon" aria-hidden="true"></i>
             <div>
+              <p class="reference-quote">“{{ reference.quote }}”</p>
               <h4>{{ reference.title }}</h4>
-              <p>{{ reference.description }}</p>
+              <p>{{ reference.role }}</p>
             </div>
           </article>
         </div>
@@ -169,49 +170,44 @@ export default {
           title: "Dean's List Award",
           issuer: "Drexel University",
           description: "Recognition of strong academic performance during international university study.",
-          document: `${process.env.BASE_URL}credentials/deans-list-award.pdf`,
+          document: null,
           icon: "fa-solid fa-graduation-cap"
         },
         {
           type: "Professional qualification",
-          title: "Personal Trainer & Nutrition Adviser",
+          title: "Personal Trainer, Gym Instructor & Nutrition Adviser",
           issuer: "ProFi Fitness School · 2025",
           description: "Comprehensive practical and theoretical training in coaching, movement and nutrition.",
           document: `${process.env.BASE_URL}credentials/personal-trainer-qualification.pdf`,
           icon: "fa-solid fa-dumbbell"
         },
         {
-          type: "Specialist certification",
-          title: "Functional Biomechanics",
-          issuer: "ProFi Fitness School · 87.5%",
-          description: "Posture, anatomy and physiology applied to safe, effective movement.",
-          document: `${process.env.BASE_URL}credentials/functional-biomechanics.pdf`,
-          icon: "fa-solid fa-person-running"
+          type: "Certificate programme",
+          title: "Anatomy & Physiology",
+          issuer: "IAP Career College · 2023",
+          description: "Online study completed from personal interest in human anatomy, physiology and health science.",
+          document: `${process.env.BASE_URL}credentials/iap-anatomy-physiology.pdf`,
+          icon: "fa-solid fa-heart-pulse"
         },
         {
-          type: "Specialist certification",
-          title: "Fitness Nutrition Adviser",
-          issuer: "ProFi Fitness School",
-          description: "Evidence-based nutrition principles supporting health and performance.",
-          document: `${process.env.BASE_URL}credentials/fitness-nutrition-adviser.pdf`,
-          icon: "fa-solid fa-apple-whole"
+          type: "Language & communication",
+          title: "Level 5 TEFL Studies",
+          issuer: "The TEFL Institute of Ireland",
+          description: "Ofqual-regulated course covering teaching methodology, lesson planning and online classroom management.",
+          document: `${process.env.BASE_URL}credentials/tefl-level-5-course-letter.pdf`,
+          icon: "fa-solid fa-language"
         }
       ],
       references: [
         {
-          title: "Academic",
-          description: "Academic performance, research and collaborative university work.",
-          icon: "fa-solid fa-book-open"
+          title: "Siobhán Riordan",
+          role: "Senior Mathematics Teacher · Mount Mercy College",
+          quote: "Sophie was a very diligent, hard-working student. Her commitment to her sport and her schoolwork was outstanding at all times."
         },
         {
-          title: "Sport & coaching",
-          description: "Elite competition, coaching, communication and team contribution.",
-          icon: "fa-solid fa-people-group"
-        },
-        {
-          title: "Professional",
-          description: "Reliability, initiative and performance in professional environments.",
-          icon: "fa-solid fa-briefcase"
+          title: "Maria Foran",
+          role: "Manager · Bike Row Ski Douglas",
+          quote: "Sophie has consistently proven herself to be a dedicated, driven and highly coachable team member."
         }
       ]
     };
@@ -349,6 +345,7 @@ export default {
 .credential-card > p:not(.credential-type):not(.issuer) { color: #626865; line-height: 1.6; }
 .credential-card a { display: inline-flex; gap: 0.45rem; margin-top: 0.5rem; color: #247d58; font-weight: 700; text-decoration: none; }
 .credential-card a:hover { text-decoration: underline; }
+.verified-label { display: inline-flex; align-items: center; gap: 0.45rem; margin-top: 0.5rem; color: #247d58; font-weight: 700; }
 
 .references-block {
   padding: 3rem;
@@ -360,20 +357,18 @@ export default {
 .references-block .eyebrow { color: #75d8ac; }
 .references-block .section-heading > p { color: #b7bfbb; }
 
-.reference-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+.reference-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
 
 .reference-card {
-  display: flex;
-  gap: 1rem;
   padding: 1.4rem;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.06);
 }
 
-.reference-card > i { margin-top: 0.25rem; color: #75d8ac; font-size: 1.3rem; }
 .reference-card h4 { margin-bottom: 0.35rem; font-size: 1.1rem; font-weight: 700; }
 .reference-card p { margin: 0; color: #b7bfbb; line-height: 1.55; }
+.reference-card .reference-quote { margin-bottom: 1.25rem; color: #fff; font-size: 1.05rem; line-height: 1.65; }
 
 ::v-deep .slick-prev:before,
 ::v-deep .slick-next:before { color: #278c62; font-size: 26px; }
