@@ -41,6 +41,7 @@
               <p class="scroll-to" @click="scrollToSection('about')">About</p>
               <p class="scroll-to" @click="scrollToSection('practicle_skills')">Skills</p>
               <p class="scroll-to" @click="scrollToSection('projects')">Projects</p>
+              <p class="scroll-to" @click="scrollToSection('journey')">Journey</p>
               <p><a href="https://sophieorourke12345.github.io/Portfolio.vue/">Portfolio website</a></p>
             </div>
 

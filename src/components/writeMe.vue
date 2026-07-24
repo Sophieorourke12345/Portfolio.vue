@@ -1,6 +1,8 @@
 <template>
-    <div>
-        <Heading :title="'Write Me'" :subtitle="'You can text me directly'" />
+    <section class="connect-section" aria-labelledby="connect-heading">
+        <div class="connect-heading container">
+            <h2 id="connect-heading">Let’s connect</h2>
+        </div>
         <div class="container container-div" data-aos="fade-left" data-aos-duration="1000">
             <div class="picture-container">
             <div class="picture">
@@ -85,30 +87,42 @@
 
             <div class="contact-form-container">
                 <form class="contact-form" action="mailto:sophorourke2000@gmail.com" method="POST" enctype="text/plain">
-                    <span class="form-header">Email Me</span>
+                    <span class="form-header">Send me a message</span>
                     <label>
                         <input type="email" name="email" class="email-input" placeholder="Email" />
                     </label>
                     <label>
                         <textarea name="message" cols="30" rows="5" class="message" placeholder="Message..."></textarea>
                     </label>
-                    <button class="submit" type="submit">Submit</button>
+                    <button class="submit" type="submit">Send message</button>
                 </form>
             </div>
 </div>
-    </div>
+    </section>
 </template>
 
 <script>
-import Heading from "./common/heading.vue";
-export default {
-  components: {
-    Heading,
-  },
-}
+export default {};
 </script>
 
 <style lang="scss" scoped>
+
+.connect-section {
+  padding-top: 5rem;
+}
+
+.connect-heading {
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.connect-heading h2 {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: clamp(2.25rem, 5vw, 3.75rem);
+  font-weight: 700;
+  letter-spacing: -0.045em;
+}
 
 .container-div {
   border: 1px solid lightgrey;
@@ -189,4 +203,3 @@ export default {
   transform: translateY(-2px);
 }
 </style>
-

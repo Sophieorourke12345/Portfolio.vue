@@ -7,6 +7,7 @@
         <li class="p-2 scroll-to" @click="scrollToSection('about')">About</li>
         <li class="p-2 scroll-to" @click="scrollToSection('practicle_skills')">Skills</li>
         <li class="p-2 scroll-to" @click="scrollToSection('projects')">Projects</li>
+        <li class="p-2 scroll-to" @click="scrollToSection('journey')">Journey</li>
         <li class="p-2 scroll-to" @click="scrollToSection('contact')">Contact</li>
 
         <li class="pt-2 pl-3">
