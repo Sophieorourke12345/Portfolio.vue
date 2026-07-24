@@ -14,8 +14,8 @@
                 </a>
               </p>
               <p>
-                <a href="mailto:121115679@umail.ucc.ie">
-                  <i class="fas fa-envelope"></i> 121115679@umail.ucc.ie
+                <a href="mailto:sophorourke2000@gmail.com">
+                  <i class="fas fa-envelope"></i> sophorourke2000@gmail.com
                 </a>
               </p>
               <p>
@@ -49,7 +49,7 @@
               <a class="btn btn-floating m-1" href="https://github.com/Sophieorourke12345" role="button">
                 <i class="fab fa-github"></i>
               </a>
-              <a class="btn btn-floating m-1" href="mailto:121115679@umail.ucc.ie" role="button">
+              <a class="btn btn-floating m-1" href="mailto:sophorourke2000@gmail.com" role="button">
                 <i class="fas fa-envelope"></i>
               </a>
             </div>

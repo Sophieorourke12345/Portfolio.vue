@@ -84,7 +84,7 @@
             </div>
 
             <div class="contact-form-container">
-                <form class="contact-form" action="mailto:121115679@umail.ucc.ie" method="POST" enctype="text/plain">
+                <form class="contact-form" action="mailto:sophorourke2000@gmail.com" method="POST" enctype="text/plain">
                     <span class="form-header">Email Me</span>
                     <label>
                         <input type="email" name="email" class="email-input" placeholder="Email" />
@@ -189,5 +189,4 @@ export default {
   transform: translateY(-2px);
 }
 </style>
-
 

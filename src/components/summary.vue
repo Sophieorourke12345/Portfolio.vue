@@ -22,7 +22,7 @@
         </button>
       </div>
       <div id="socials-container">
-        <i class="fa-solid fa-envelope icon" @click="redirectTo('mailto:121115679@umail.ucc.ie')"></i>
+        <i class="fa-solid fa-envelope icon" @click="redirectTo('mailto:sophorourke2000@gmail.com')"></i>
         <i class="icon fa-brands fa-github" @click="redirectTo('https://github.com/Sophieorourke12345')"></i>
       </div>
     </div>
